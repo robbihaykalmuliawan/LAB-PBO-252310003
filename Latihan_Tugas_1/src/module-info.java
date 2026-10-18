@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Tugas {
+module Latihan_Tugas_1 {
 }
