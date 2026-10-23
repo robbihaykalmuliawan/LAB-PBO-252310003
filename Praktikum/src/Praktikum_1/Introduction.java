@@ -12,23 +12,23 @@ public class Introduction {
 		String nama = "Jaden";
 		
 		// operator
-		int hasilTambah = angka1 + angka2; // pertambahan
-		hasilTambah++; // increment
-		
+	int hasilTambah = angka1 + angka2; // pertambahan
+	hasilTambah++; // increment
+	System.out.println("Hasil tambah: " + hasilTambah);
+
 		// operator perbandingan
-		boolean pembanding = angka1 > angka2;
-		boolean tesNama = nama == "Jaden";
-	
-		// operator kondisional 
-		boolean kondisional = (true || false) && (true && true);
+	boolean pembanding = angka1 > angka2;
+	boolean tesNama = nama.equals("Jaden");
+	System.out.println("Pembanding: " + pembanding);
+	System.out.println("Tes nama: " + tesNama);
+
+// operator kondisional
+	boolean kondisional = (angka1 > 5 || angka2 < 0) && (angka1 > 0 && angka2 > 0);
+	System.out.println("Kondisional: " + kondisional);
 		
-		// operator assigment
-		angka1 *= angka2; // angka1 dikali dgn angka2
-							// hasilnya disimpan di angka1
-		
-		Dog mydog = new Dog();
-		mydog.hungry();
-		String name = "Toni";
+	Dog mydog = new Dog();
+	mydog.hungry();
+	String name = "Toni";
 		mydog.puppyName(name);
 		
 	}

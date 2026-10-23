@@ -2,7 +2,23 @@ package Soal_No_7;
 
 public class PesananFood {
     private String idPesanan;
+    public String getIdPesanan() {
+        return idPesanan;
+    }
+
+    public void setIdPesanan(String idPesanan) {
+        this.idPesanan = idPesanan;
+    }
+
     private String namaMenu;
+    public String getNamaMenu() {
+        return namaMenu;
+    }
+
+    public void setNamaMenu(String namaMenu) {
+        this.namaMenu = namaMenu;
+    }
+
     private double totalHarga;
 
     public PesananFood(String idPesanan, String namaMenu) {

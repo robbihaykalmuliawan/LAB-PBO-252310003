@@ -20,6 +20,7 @@ public class Latihan1 {
 		
 		System.out.println("Volume dari balok: " + balok.getvolume());
 		
+		scanner.close();
 	}
 
 	}

@@ -46,5 +46,7 @@ public class Calculator {
 			again = scanner.next().charAt(0);
 			
 		} while (Character.toUpperCase(again) == 'Y');
+
+		scanner.close();
 	}
 }

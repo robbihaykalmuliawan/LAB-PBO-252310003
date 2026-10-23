@@ -12,13 +12,13 @@ public class App {
 		int confirm = 0;
 		
 		do {
-			nama = jop.showInputDialog(
+			nama = JOptionPane.showInputDialog(
 					null,
 					"Masukan nama anda",
 					"Input",
-					jop.QUESTION_MESSAGE
+					JOptionPane.QUESTION_MESSAGE
 					);
-			confirm = jop.showConfirmDialog(
+			confirm = JOptionPane.showConfirmDialog(
 					null,
 					"Apakah anda yakin nama anda " + nama 
 					);
@@ -33,7 +33,7 @@ public class App {
 				"252310003"
 				);
 		
-		umur = Integer.parseInt(jop.showInputDialog(null, "Input umur"));		
+		umur = Integer.parseInt(JOptionPane.showInputDialog(null, "Input umur"));		
 	
 		String output = "Nama: " + nama + "\n" +
 						"Npm: " + npm + "\n" +

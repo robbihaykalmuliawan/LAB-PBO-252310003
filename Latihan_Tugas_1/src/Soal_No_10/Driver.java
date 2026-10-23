@@ -2,6 +2,14 @@ package Soal_No_10;
 
 public class Driver {
     private String idDriver;
+    public String getIdDriver() {
+        return idDriver;
+    }
+
+    public void setIdDriver(String idDriver) {
+        this.idDriver = idDriver;
+    }
+
     private String nama;
     private boolean statusTersedia;
 

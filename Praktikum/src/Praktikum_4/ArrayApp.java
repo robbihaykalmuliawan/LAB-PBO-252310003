@@ -9,6 +9,7 @@ public class ArrayApp {
 		System.out.println(nama[0]); 	// cara output
 		System.out.println(nama[1]); 	// tes output
 		
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Input nama: ");
 		nama[1] = scanner.nextLine();
